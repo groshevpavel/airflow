@@ -1381,7 +1381,7 @@ are marked as templated in the structure they belong to: fields registered in
       task_id='transform_data',
       python_callable=transform_data
       op_args=[
-        MyDataReader('/tmp/{{ ds }}/my_file')
+        MyDataReader('/tmp/{{ path }}/my_file')
       ],
       dag=dag)
 
